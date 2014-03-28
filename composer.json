@@ -4,7 +4,7 @@
     "keywords": ["microframework", "aura", "laravel"],
     "homepage": "http://github.com/AuroraPHP/Aura.Facades",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "davidstanley01",
