@@ -1,5 +1,5 @@
 {
-    "name": "auroraphp/aura-facades",
+    "name": "auroraphp/facades",
     "description": "\"Static\" interface for Aura Web Project, inspired by SlimPHP Facades",
     "keywords": ["microframework", "aura", "laravel"],
     "homepage": "http://github.com/AuroraPHP/Aura.Facades",
@@ -16,6 +16,6 @@
         "illuminate/support": ">=4.0"
     },
     "autoload": {
-        "psr-0": {"AuraFacades": ""}
+        "psr-0": {"Auroraphp\\Facades\\": "src/"}
     }
 }

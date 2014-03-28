@@ -1,5 +1,5 @@
 <?php
-namespace AuraFacades;
+namespace Auroraphp\Facades;
 
 use Illuminate\Support\Facades\Facade as AwesomeFacade;
 
