@@ -6,7 +6,7 @@ A package to allow the use of facades within the wonderful Aura.Web_Project fram
 
 
 #Game Changer
-We all know that Facades are quite possibly the best thing to happen to PHP in the past decade.  Facades are an innovation originally created by Taylor Otwell for the Laravel PHP project.
+We all know that Facades are quite possibly the best thing to happen to PHP in the past decade.  Facades are an innovation originally created by Taylor Otwell for the Laravel PHP project.  It's time to bring this magic to Aura, don't fight the revolution.
 
 
 
