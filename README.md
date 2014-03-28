@@ -40,7 +40,7 @@ and here is the new artisanal way
 #Installation
 Now that you're ready to leave the dark ages and start using Facades, let's install it.  Just add this to your composer.json:
 
-"auroraphp/facades": "dev-master"
+	"auroraphp/facades": "dev-master"
 
 
 This in your application bootstrapping just add this
