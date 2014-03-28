@@ -9,6 +9,11 @@
             "name": "davidstanley01",
             "email": "davidstanley01@gmail.com",
             "homepage": "http://twitter.com/davidstanley01"
+        },
+        {
+            "name": "benedmunds",
+            "email": "ben.edmunds@gmail.com",
+            "homepage": "http://twitter.com/benedmunds"
         }
     ],
     "require": {
