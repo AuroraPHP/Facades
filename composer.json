@@ -2,7 +2,7 @@
     "name": "auroraphp/facades",
     "description": "\"Static\" interface for Aura Web Project, inspired by SlimPHP Facades",
     "keywords": ["microframework", "aura", "laravel"],
-    "homepage": "http://github.com/AuroraPHP/Aura.Facades",
+    "homepage": "http://github.com/AuroraPHP/Facades",
     "license": "MIT",
     "version": "1.0.0",
     "authors": [
