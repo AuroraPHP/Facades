@@ -45,7 +45,7 @@ Now that you're ready to leave the dark ages and start using Facades, let's inst
 
 This in your application bootstrapping just add this
 
-	use Auroraphp\Facade;
+	use Auroraphp\Facades\Facade;
 
 	// initialize the Facade class
 	Facade::registerAliases();
