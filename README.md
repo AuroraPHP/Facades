@@ -1,4 +1,4 @@
-Aura.Facades
+Facades for AuraPHP
 ============
 
 A package to allow the use of facades within the wonderful Aura.Web_Project framework goodness.  Aura PHP is a great framework but getting started can be a pain.  So let's fix that, presenting Facades for Aura.
@@ -45,7 +45,7 @@ Now that you're ready to leave the dark ages and start using Facades, let's inst
 
 This in your application bootstrapping just add this
 
-	use AuraFacades\Facade;
+	use Auroraphp\Facade;
 
 	// initialize the Facade class
 	Facade::registerAliases();
