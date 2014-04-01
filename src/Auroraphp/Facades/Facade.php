@@ -1,11 +1,21 @@
 <?php
 namespace Auroraphp\Facades;
 
-use Illuminate\Support\Facades\Facade as AwesomeFacade;
-
-class Facade extends AwesomeFacade
+class Facade
 {
-    protected static $aura;
+    public static $aura;
+
+    /**
+     * The application instance being facaded.
+     */
+    public static $app;
+
+    /**
+     * The resolved object instances.
+     *
+     * @var array
+     */
+    protected static $resolvedInstance;
 
     public static function registerAliases($aliases = null)
     {
@@ -48,6 +58,10 @@ class Facade extends AwesomeFacade
     public static function __callStatic($method, $args)
     {
         $instance = static::resolveFacadeInstance(static::getFacadeAccessor());
+
+        if ($method == 'all') {
+            return $instance;
+        }
 
         switch (count($args))
         {
